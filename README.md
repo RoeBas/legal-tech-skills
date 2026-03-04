@@ -1,20 +1,33 @@
 # Legal Tech Skills
 
-AI agent skills for Israeli law, contracts, labor regulations, and legal compliance.
+AI agent skills for Israeli legal technology, contract generation, and regulatory compliance.
 
 Part of [Skills IL](https://github.com/skills-il) - curated AI agent skills for Israeli developers.
 
-## Structure
+## Skills
 
-Each subdirectory is a self-contained skill following the open [Agent Skills](https://github.com/anthropics/agent-skills) standard.
+| Skill | Description | Scripts | References |
+|-------|-------------|---------|------------|
+| [israeli-employment-contracts](./israeli-employment-contracts/) | Generate Israeli employment contracts with all mandatory clauses per Israeli labor law. | `generate_contract.py` | 2 |
 
-## Adding Skills
+## Install
 
-1. Create a new directory with your skill name (kebab-case)
-2. Add `SKILL.md` with required frontmatter and instructions
-3. Add `SKILL_HE.md` with Hebrew content
-4. Open a PR - CI will validate your skill automatically
+```bash
+# Claude Code
+claude install github:skills-il/legal-tech/israeli-employment-contracts
+
+# Or clone the full repo
+git clone https://github.com/skills-il/legal-tech.git
+```
+
+## Contributing
+
+See the org-level [Contributing Guide](https://github.com/skills-il/.github/blob/main/CONTRIBUTING.md).
 
 ## License
 
 MIT
+
+---
+
+Built with care in Israel.

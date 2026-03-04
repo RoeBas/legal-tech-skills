@@ -8,10 +8,7 @@ body:
     attributes:
       label: Which skill?
       options:
-        - idf-date-converter
-        - israeli-id-validator
-        - israeli-marketplace-seller
-        - israeli-shipping-manager
+        - israeli-employment-contracts
         - Other
     validations:
       required: true
