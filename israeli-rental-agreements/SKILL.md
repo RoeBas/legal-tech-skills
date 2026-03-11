@@ -36,8 +36,14 @@ metadata:
   display_description:
     he: מדריך לחוזי שכירות, זכויות דיירים ומשכירים בישראל
     en: >-
-      Guide to Israeli rental agreements, tenant and landlord rights, Fair
-      Rental Law, deposits, and lease negotiation.
+      Guide users through Israeli rental agreements, tenant and landlord rights,
+      and lease negotiation. Use when user asks about rental contracts (chozeh
+      schirut), tenant rights, landlord obligations, deposits (arancia), rent
+      increases, index-linked rent (hatzmada la'madad), the Fair Rental Law
+      2017, eviction procedures, or common red flags in Israeli leases. Covers
+      essential contract elements, guarantees, dispute resolution, and the
+      Tenant Protection Law. Do NOT use for commercial leases, property purchase
+      transactions, or mortgage advice.
   supported_agents:
     - claude-code
     - cursor
