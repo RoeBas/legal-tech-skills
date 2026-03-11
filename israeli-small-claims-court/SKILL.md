@@ -36,8 +36,14 @@ metadata:
   display_description:
     he: מדריך להגשת תביעות קטנות בישראל
     en: >-
-      Guide to filing and navigating Israeli small claims court (tviut ktanot),
-      covering procedures, limits, forms, and self-representation.
+      Guide users through filing and navigating Israeli small claims court
+      (tvi'ot ktanot). Use when user asks about small claims procedures, filing
+      a lawsuit for consumer disputes, landlord-tenant claims, service
+      complaints, court forms, filing fees, or self-representation in Israeli
+      courts. Covers claim limits (NIS 38,900), the filing process via gov.il,
+      evidence preparation, hearing procedures, judgments, and enforcement
+      through the execution office (Hotza'a LaPo'al). Do NOT use for criminal
+      matters, family law, or claims exceeding the small claims limit.
   supported_agents:
     - claude-code
     - cursor
