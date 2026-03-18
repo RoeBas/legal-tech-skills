@@ -13,7 +13,7 @@ license: MIT
 compatibility: No network required. Works offline with reference data.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: legal-tech
   tags:
     he:
@@ -310,6 +310,14 @@ Typical small claims cases and their specific considerations:
 
 ### Scripts
 - `scripts/filing-fee-calculator.py` -- Calculates the filing fee based on claim amount (1% of claim, minimum NIS 50). Also shows total estimated costs and notes if the claim exceeds the small claims court limit. Run: `python scripts/filing-fee-calculator.py --help`
+
+## Gotchas
+
+- The small claims court jurisdiction limit (NIS 38,900 as of January 2025) is updated periodically by the Ministry of Justice. Agents using an outdated limit will give incorrect filing advice. Always verify the current threshold.
+- Israeli legal citation format uses "Psakei Din" style, not Bluebook or OSCOLA. Agents trained on US or UK legal norms will produce improperly formatted citations in demand letters and court filings.
+- Filing fees in Israeli small claims court are calculated as 1% of the claim amount (minimum NIS 50), not a flat fee. Agents familiar with US small claims (which use flat filing fees) will miscalculate costs.
+- The Israeli Execution Office (Hotza'a LaPo'al) enforcement process is a distinct post-judgment system with its own procedures and fees. Agents may confuse it with regular court enforcement or skip this step entirely when advising on judgment collection.
+- Consumer protection claims for online purchases can be filed in the plaintiff's home district court, not the defendant's location. This is an Israeli-specific consumer protection rule that agents unfamiliar with Israeli jurisdiction rules will miss.
 
 ## Troubleshooting
 

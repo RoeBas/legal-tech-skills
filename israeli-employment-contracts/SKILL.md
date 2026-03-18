@@ -16,7 +16,7 @@ compatibility: >-
   Python 3.8+ required for generate_contract.py script.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: legal-tech
   tags:
     he:
@@ -301,6 +301,14 @@ Result: Classification recommendation with risk analysis and next steps.
 ### References
 - `references/labor-law.md` -- Comprehensive summary of Israeli labor laws governing employment contracts: Severance Pay Law (1963), Annual Leave Law (1951), Sick Pay Law (1976), Hours of Work and Rest Law (1951), Notification to Employee Law (2002), Protection of Wages Law (1958), and key extension orders (Tzav Harchava). Consult when verifying statutory requirements or resolving disputes about employee entitlements.
 - `references/mandatory-clauses.md` -- Bilingual (Hebrew and English) employment contract clause templates covering all mandatory provisions: parties, position, salary, pension with Section 14, Keren Hishtalmut, convalescence pay, leave, sick days, notice period, confidentiality, IP assignment, and non-compete. Consult when drafting or reviewing specific contract sections.
+
+## Gotchas
+
+- Israeli non-compete clauses are nearly unenforceable unless very narrowly scoped. Agents trained on US employment law will draft broad non-competes that Israeli courts routinely strike down. Always prefer robust confidentiality clauses instead.
+- Section 14 (Saif 14) of the Severance Pay Law is Israel-specific and has no equivalent in US or European law. Agents unfamiliar with it will omit this critical clause, leaving employers exposed to double severance liability.
+- The mandatory pension contribution rates (employer 6.5%, employee 6%) are set by extension order and change periodically. Agents may use outdated rates from their training data. Always verify against the current Tzav Harchava.
+- Israeli law does not recognize automatic "work-for-hire" for all intellectual property as US law does. Agents drafting contracts without an explicit IP assignment clause will leave IP ownership ambiguous, especially for software.
+- The convalescence pay (Dmei Havra'a) per-day rate is updated annually by extension order. Agents using a fixed amount from their training data will produce incorrect calculations. Check the current rate at the Ministry of Economy website.
 
 ## Troubleshooting
 

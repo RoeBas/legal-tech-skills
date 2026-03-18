@@ -13,7 +13,7 @@ license: MIT
 compatibility: No network required. Works offline with reference data.
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: legal-tech
   tags:
     he:
@@ -299,6 +299,14 @@ Warning signs to watch for when reviewing a lease:
 
 ### Scripts
 - `scripts/rent-index-calculator.py` -- Calculates rent adjustment based on CPI index linking (hatzmada la'madad). Given original rent, start date, and current date, calculates the adjusted rent using historical CPI data. Run: `python scripts/rent-index-calculator.py --help`
+
+## Gotchas
+
+- The Fair Rental Law 2017 (Chok Schirut Hogenet) applies only to residential rentals. Agents may incorrectly apply its provisions (deposit caps, habitability standards) to commercial leases, where different rules apply.
+- Israeli rental deposits are capped at 3 months' rent under the Fair Rental Law, but agents trained on US/UK norms may suggest higher deposits or fail to flag contracts exceeding this limit.
+- Index-linked rent (Hatzmada La'Madad) adjusts based on the Israeli CPI, which can go both up and down. Agents may assume rent only increases, missing that deflation periods actually reduce the indexed rent.
+- The small claims court jurisdiction limit (currently NIS 38,900) changes periodically. Agents advising on deposit disputes or rental claims must verify the current threshold rather than relying on training data.
+- A shtar hon (promissory note) is enforceable through the Execution Office without a full court hearing, making it far riskier for tenants than a bank guarantee. Agents unfamiliar with Israeli guarantee instruments may treat all deposit types as equivalent.
 
 ## Troubleshooting
 

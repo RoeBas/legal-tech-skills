@@ -18,7 +18,7 @@ allowed-tools: 'Bash(python:*)'
 compatibility: 'No special requirements. Works with Claude Code, Cursor, Windsurf.'
 metadata:
   author: skills-il
-  version: 1.0.0
+  version: 1.0.1
   category: legal-tech
   tags:
     he:
@@ -399,6 +399,14 @@ Result: The termination may be unlawful. The employee should demand in writing t
 ### References
 - `references/labor-laws-summary.md` -- Summary table of all key Israeli labor laws with law names, numbers, and key provisions. Consult when identifying which specific law applies to a situation.
 - `references/entitlements-calculator.md` -- Tables for vacation days, sick days, convalescence pay by seniority. Quick-reference tables for all seniority-based entitlements. Consult when calculating specific entitlements by years of service.
+
+## Gotchas
+
+- Israeli sick pay starts at 0% on day 1, 50% on days 2-3, and 100% from day 4. This graduated structure is unique to Israel. Agents trained on US (often no mandated sick pay) or European (typically 100% from day 1) norms will give incorrect payment information.
+- The Israeli work week standard changed to 42 hours in April 2018. Agents with older training data may still reference 43 hours or 45 hours, leading to incorrect overtime calculations.
+- Vacation days in Israeli law are counted based on a 6-day work week. For the common 5-day work week, a conversion factor of 5/6 must be applied. Agents often skip this conversion and overstate entitlements.
+- Severance pay must be paid within 15 days of termination, after which penalty interest (pitzuyei halanat pitzuyim) accrues automatically. Agents may cite a 30-day or "reasonable time" standard from other jurisdictions.
+- The pre-termination hearing (shima) is a mandatory procedural requirement in Israel that has no exact equivalent in US at-will employment. Agents may omit this step entirely, which can render the termination unlawful regardless of the substantive grounds.
 
 ## Troubleshooting
 
