@@ -1,0 +1,42 @@
+{
+  "author": "skills-il",
+  "version": "1.0.1",
+  "category": "legal-tech",
+  "tags": {
+    "he": [
+      "חוזה-עבודה",
+      "דיני-עבודה",
+      "פנסיה",
+      "סעיף-14",
+      "קרן-השתלמות",
+      "דמי-הבראה",
+      "ישראל"
+    ],
+    "en": [
+      "employment-contract",
+      "labor-law",
+      "pension",
+      "section-14",
+      "education-fund",
+      "convalescence-pay",
+      "israel"
+    ]
+  },
+  "display_name": {
+    "he": "חוזה עבודה ישראלי",
+    "en": "Israeli Employment Contracts"
+  },
+  "display_description": {
+    "he": "יצירה ובדיקה של חוזי עבודה ישראליים עם כל הסעיפים המחייבים על פי דיני העבודה",
+    "en": "Generate, review, and validate Israeli employment contracts (chozeh avoda) with all mandatory clauses per Israeli labor law. Use when user asks to create an employment contract, review employment terms, calculate mandatory benefits, or asks about \"chozeh avoda\", \"Section 14\", \"Saif 14\", \"Keren Hishtalmut\", \"Dmei Havra'a\", \"convalescence pay\", \"severance\", \"pitzuim\", Israeli pension obligations, non-compete clauses in Israel, or Israeli employment compliance. Covers full-time, part-time, and contractor classification. Do NOT use for freelance service agreements, commercial contracts, or non-Israeli employment law."
+  },
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "github-copilot",
+    "windsurf",
+    "opencode",
+    "codex",
+    "antigravity"
+  ]
+}

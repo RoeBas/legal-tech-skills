@@ -1,67 +1,9 @@
 ---
 name: israeli-workplace-rights-navigator
-description: >-
-  Understand and exercise employee rights under Israeli labor law, including
-  vacation days (chofsha), sick leave (machala), overtime pay, maternity and
-  paternity leave, severance pay (pitzuyim), convalescence pay (dmei havra'a),
-  and pension contributions. Use when user asks about "employee rights in
-  Israel", "how many vacation days", "sick pay Israel", "pitzuyei piturim",
-  "dmei havra'a", "chofeshat leidah", "shaat nosafot", or "zchuyot ovdim".
-  Covers Annual Leave Law, Sick Pay Law, Hours of Work and Rest Law,
-  Employment of Women Law, Severance Pay Law, sexual harassment protections,
-  and disability accommodations. Do NOT use for employment contract generation
-  (use israeli-employment-contracts), salary negotiation (use
-  israeli-tech-salary-negotiator), reserve duty rights (use
-  israeli-miluim-manager), or freelancer operations (use israeli-freelancer-ops).
+description: Understand and exercise employee rights under Israeli labor law, including vacation days (chofsha), sick leave (machala), overtime pay, maternity and paternity leave, severance pay (pitzuyim), convalescence pay (dmei havra'a), and pension contributions. Use when user asks about "employee rights in Israel", "how many vacation days", "sick pay Israel", "pitzuyei piturim", "dmei havra'a", "chofeshat leidah", "shaat nosafot", or "zchuyot ovdim". Covers Annual Leave Law, Sick Pay Law, Hours of Work and Rest Law, Employment of Women Law, Severance Pay Law, sexual harassment protections, and disability accommodations. Do NOT use for employment contract generation (use israeli-employment-contracts), salary negotiation (use israeli-tech-salary-negotiator), reserve duty rights (use israeli-miluim-manager), or freelancer operations (use israeli-freelancer-ops).
 license: MIT
-allowed-tools: 'Bash(python:*)'
-compatibility: 'No special requirements. Works with Claude Code, Cursor, Windsurf.'
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: legal-tech
-  tags:
-    he:
-      - דיני-עבודה
-      - זכויות-עובדים
-      - חופשה
-      - מחלה
-      - פיצויים
-      - ישראל
-    en:
-      - labor-law
-      - employee-rights
-      - workplace
-      - vacation
-      - sick-days
-      - israel
-  display_name:
-    he: "ניווט זכויות עובדים"
-    en: Israeli Workplace Rights Navigator
-  display_description:
-    he: >-
-      הבנה ומימוש זכויות עובדים לפי דיני העבודה הישראליים. מכסה ימי חופשה,
-      ימי מחלה, שעות נוספות, חופשת לידה, פיצויי פיטורים, דמי הבראה, הפרשות
-      פנסיה, הגנות מפני פיטורים שלא כדין, הטרדה מינית והתאמות לאנשים עם
-      מוגבלות. השתמשו כשמשתמש שואל על זכויות עובדים, חישוב פיצויים, ימי
-      חופשה, מחלה, או הליכי פיטורים בישראל.
-    en: >-
-      Understand and exercise employee rights under Israeli labor law, including
-      vacation days (chofsha), sick leave (machala), overtime pay, maternity and
-      paternity leave, severance pay (pitzuyim), convalescence pay (dmei havra'a),
-      and pension contributions. Covers Annual Leave Law, Sick Pay Law, Hours of
-      Work and Rest Law, Employment of Women Law, Severance Pay Law, sexual
-      harassment protections, and disability accommodations. Do NOT use for
-      employment contract generation (use israeli-employment-contracts), salary
-      negotiation (use israeli-tech-salary-negotiator), or reserve duty rights
-      (use israeli-miluim-manager).
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
+allowed-tools: Bash(python:*)
+compatibility: No special requirements. Works with Claude Code, Cursor, Windsurf.
 ---
 
 # Israeli Workplace Rights Navigator

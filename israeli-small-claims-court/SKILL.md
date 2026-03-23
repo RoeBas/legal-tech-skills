@@ -1,57 +1,8 @@
 ---
 name: israeli-small-claims-court
-description: >-
-  Guide users through filing and navigating Israeli small claims court (tvi'ot
-  ktanot). Use when user asks about small claims procedures, filing a lawsuit
-  for consumer disputes, landlord-tenant claims, service complaints, court
-  forms, filing fees, or self-representation in Israeli courts. Covers claim
-  limits (NIS 38,900), the filing process via gov.il, evidence preparation,
-  hearing procedures, judgments, and enforcement through the execution office
-  (Hotza'a LaPo'al). Do NOT use for criminal matters, family law, or claims
-  exceeding the small claims limit.
+description: Guide users through filing and navigating Israeli small claims court (tvi'ot ktanot). Use when user asks about small claims procedures, filing a lawsuit for consumer disputes, landlord-tenant claims, service complaints, court forms, filing fees, or self-representation in Israeli courts. Covers claim limits (NIS 38,900), the filing process via gov.il, evidence preparation, hearing procedures, judgments, and enforcement through the execution office (Hotza'a LaPo'al). Do NOT use for criminal matters, family law, or claims exceeding the small claims limit.
 license: MIT
 compatibility: No network required. Works offline with reference data.
-metadata:
-  author: skills-il
-  version: 1.0.1
-  category: legal-tech
-  tags:
-    he:
-      - תביעות-קטנות
-      - בית-משפט
-      - משפטי
-      - סכסוכים
-      - זכויות-צרכן
-      - ישראל
-    en:
-      - small-claims
-      - court
-      - legal
-      - disputes
-      - consumer-rights
-      - israel
-  display_name:
-    he: תביעות קטנות בישראל
-    en: Israeli Small Claims Court
-  display_description:
-    he: מדריך להגשת תביעות קטנות בישראל
-    en: >-
-      Guide users through filing and navigating Israeli small claims court
-      (tvi'ot ktanot). Use when user asks about small claims procedures, filing
-      a lawsuit for consumer disputes, landlord-tenant claims, service
-      complaints, court forms, filing fees, or self-representation in Israeli
-      courts. Covers claim limits (NIS 38,900), the filing process via gov.il,
-      evidence preparation, hearing procedures, judgments, and enforcement
-      through the execution office (Hotza'a LaPo'al). Do NOT use for criminal
-      matters, family law, or claims exceeding the small claims limit.
-  supported_agents:
-    - claude-code
-    - cursor
-    - github-copilot
-    - windsurf
-    - opencode
-    - codex
-    - antigravity
 ---
 
 # Israeli Small Claims Court
