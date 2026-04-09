@@ -8,13 +8,35 @@
     "en": "Appeal parking tickets and traffic fines in Israel. Generates Hebrew appeal letters with legal grounds, explains the 30-day parking fine and 90-day traffic fine appeal windows, covers all municipal fine systems and the points system (shitat hanikud). Use when you receive a parking or traffic fine and want to know whether to appeal, how to draft the appeal letter, and how to submit it. Prevents missing deadlines that double the fine amount. Do NOT use for serious criminal traffic offenses, car accidents, or DUI cases."
   },
   "tags": {
-    "he": ["קנסות", "חניה", "תעבורה", "ערעור", "דוחות", "ניקוד"],
-    "en": ["fines", "parking", "traffic", "appeal", "tickets", "points-system"]
+    "he": [
+      "קנסות",
+      "חניה",
+      "תעבורה",
+      "ערעור",
+      "דוחות",
+      "ניקוד"
+    ],
+    "en": [
+      "fines",
+      "parking",
+      "traffic",
+      "appeal",
+      "tickets",
+      "points-system"
+    ]
   },
   "author": "skills-il",
   "version": "1.0.0",
   "category": "legal-tech",
-  "supported_agents": ["claude-code", "cursor", "windsurf", "opencode", "codex", "openclaw"],
+  "supported_agents": [
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "opencode",
+    "codex",
+    "openclaw",
+    "gemini-cli"
+  ],
   "openclaw": {
     "install_url": "https://openclaw.com/skills/skills-il/legal-tech/israeli-fines-fighter"
   }
