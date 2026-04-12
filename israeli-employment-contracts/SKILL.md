@@ -88,7 +88,8 @@ Many employers offer more generous leave. These are statutory minimums.
 | Year 2+ | 1 month | 1 month |
 
 **Overtime (per Hours of Work and Rest Law):**
-- Standard work day: 8.6 hours (43 hours/week as of April 2018)
+- Standard work week: 42 hours (since April 2018)
+- Standard work day: 8.4 hours (for a 5-day work week) or 8 hours (for a 6-day work week)
 - First 2 overtime hours: 125% of regular hourly rate
 - Additional overtime hours: 150% of regular hourly rate
 - Weekly rest: at least 36 consecutive hours (typically Friday-Saturday or Saturday)
