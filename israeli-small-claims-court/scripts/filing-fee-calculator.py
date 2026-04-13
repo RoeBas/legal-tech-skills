@@ -9,9 +9,9 @@ minimum of NIS 50.
 Usage:
     python scripts/filing-fee-calculator.py --amount 15000
     python scripts/filing-fee-calculator.py --amount 3000
-    python scripts/filing-fee-calculator.py --amount 38900
+    python scripts/filing-fee-calculator.py --amount 39900
 
-Small claims court in Israel handles claims up to NIS 38,900.
+Small claims court in Israel handles claims up to NIS 39,900.
 For claims exceeding this amount, the case must be filed in
 Magistrate Court (Beit Mishpat Shalom).
 """
@@ -22,7 +22,7 @@ import sys
 
 
 # Constants
-SMALL_CLAIMS_MAX = 38900  # Maximum claim amount in NIS (as of January 2025)
+SMALL_CLAIMS_MAX = 39900  # Maximum claim amount in NIS (as of January 2026)
 MINIMUM_FEE = 50  # Minimum filing fee in NIS
 FEE_PERCENTAGE = 0.01  # 1% of claim amount
 
@@ -67,9 +67,9 @@ def main():
             "Examples:\n"
             "  python filing-fee-calculator.py --amount 15000\n"
             "  python filing-fee-calculator.py --amount 3000\n"
-            "  python filing-fee-calculator.py --amount 38900\n"
+            "  python filing-fee-calculator.py --amount 39900\n"
             "\n"
-            "Small claims court maximum: NIS 38,900 (as of January 2025).\n"
+            "Small claims court maximum: NIS 39,900 (as of January 2026).\n"
             "For larger claims, file in Magistrate Court (Beit Mishpat Shalom)."
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -152,9 +152,9 @@ def main():
         print(f"  Court costs (at judge's discretion):  Variable")
 
     print(f"\n  DISCLAIMER (הערה חשובה):")
-    print(f"  Fee amounts are based on regulations as of January 2025.")
+    print(f"  Fee amounts are based on regulations as of January 2026.")
     print(f"  Verify current fee with the court or gov.il before filing.")
-    print(f"  The small claims maximum (NIS 38,900) is updated periodically.")
+    print(f"  The small claims maximum (NIS 39,900) is updated periodically.")
     print()
 
 

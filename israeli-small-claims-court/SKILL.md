@@ -1,6 +1,6 @@
 ---
 name: israeli-small-claims-court
-description: Guide users through filing and navigating Israeli small claims court (tvi'ot ktanot). Use when user asks about small claims procedures, filing a lawsuit for consumer disputes, landlord-tenant claims, service complaints, court forms, filing fees, or self-representation in Israeli courts. Covers claim limits (NIS 38,900), the filing process via gov.il, evidence preparation, hearing procedures, judgments, and enforcement through the execution office (Hotza'a LaPo'al). Do NOT use for criminal matters, family law, or claims exceeding the small claims limit.
+description: Guide users through filing and navigating Israeli small claims court (tvi'ot ktanot). Use when user asks about small claims procedures, filing a lawsuit for consumer disputes, landlord-tenant claims, service complaints, court forms, filing fees, or self-representation in Israeli courts. Covers claim limits (NIS 39,900), the filing process via gov.il, evidence preparation, hearing procedures, judgments, and enforcement through the execution office (Hotza'a LaPo'al). Do NOT use for criminal matters, family law, or claims exceeding the small claims limit.
 license: MIT
 compatibility: No network required. Works offline with reference data.
 ---
@@ -14,7 +14,7 @@ Small claims court (Beit Mishpat LeTvi'ot Ktanot) is a division of the Magistrat
 
 | Parameter | Details |
 |-----------|---------|
-| Maximum claim amount | NIS 38,900 (as of January 2025, updated periodically) |
+| Maximum claim amount | NIS 39,900 (as of January 2026, updated periodically) |
 | Minimum filing fee | NIS 50 (or 1% of claim, whichever is higher) |
 | Lawyer representation | Not required; self-representation is the norm |
 | Legal entities | Both individuals and businesses can file/be sued |
@@ -35,7 +35,7 @@ Small claims court (Beit Mishpat LeTvi'ot Ktanot) is a division of the Magistrat
 
 | Exclusion | Reason |
 |-----------|--------|
-| Claims over NIS 38,900 | Exceeds jurisdiction; file in Magistrate Court |
+| Claims over NIS 39,900 | Exceeds jurisdiction; file in Magistrate Court |
 | Real estate ownership disputes | Requires Magistrate or District Court |
 | Family law matters | Handled by Family Court (Beit Mishpat LeMishpacha) |
 | Criminal complaints | Handled by criminal courts or police |
@@ -61,7 +61,7 @@ How to file a small claims case in Israel:
 | Claim Amount | Filing Fee | Notes |
 |-------------|-----------|-------|
 | Up to NIS 5,000 | NIS 50 | Minimum fee |
-| NIS 5,001 - NIS 38,900 | 1% of claim amount | Rounded to nearest shekel |
+| NIS 5,001 - NIS 39,900 | 1% of claim amount | Rounded to nearest shekel |
 | Counterclaim by defendant | Same calculation | Defendant can file counter-claim |
 
 **Where to file (jurisdiction rules):**
@@ -239,7 +239,7 @@ Typical small claims cases and their specific considerations:
 
 ### Example 1: Filing for Unreturned Rental Deposit
 **Input:** "My landlord won't return my NIS 8,000 deposit after the lease ended 3 months ago. What do I do?"
-**Output:** Walk through the process: First, send a demand letter (mikhtav drishah) via registered mail giving the landlord 14 days to return the deposit. If no response, file a small claims case. The claim is well within the NIS 38,900 limit. Filing fee: 1% of NIS 8,000 = NIS 80. File at the court where the property is located. Prepare evidence: lease contract showing deposit terms, move-in and move-out photos, any communication about the deposit, and proof of the 60-day return period from the Fair Rental Law. The landlord must justify any deductions with documentation.
+**Output:** Walk through the process: First, send a demand letter (mikhtav drishah) via registered mail giving the landlord 14 days to return the deposit. If no response, file a small claims case. The claim is well within the NIS 39,900 limit. Filing fee: 1% of NIS 8,000 = NIS 80. File at the court where the property is located. Prepare evidence: lease contract showing deposit terms, move-in and move-out photos, any communication about the deposit, and proof of the 60-day return period from the Fair Rental Law. The landlord must justify any deductions with documentation.
 
 ### Example 2: Defective Product Claim
 **Input:** "I bought a NIS 3,500 washing machine that broke after 2 months and the store refuses to fix or replace it."
@@ -262,19 +262,37 @@ Typical small claims cases and their specific considerations:
 ### Scripts
 - `scripts/filing-fee-calculator.py` -- Calculates the filing fee based on claim amount (1% of claim, minimum NIS 50). Also shows total estimated costs and notes if the claim exceeds the small claims court limit. Run: `python scripts/filing-fee-calculator.py --help`
 
+## Recommended MCP Servers
+
+| MCP | What It Adds |
+|-----|-------------|
+| [Israel Law MCP](https://agentskills.co.il/he/mcps/legal/israel-law) | Full-text search of 66 Israeli statutes with 537 provisions, including Consumer Protection Law and other laws commonly cited in demand letters and small claims filings. |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government/kolzchut) | Structured access to Israel's authoritative rights and entitlements knowledge base (כל-זכות), useful for looking up tenant rights, consumer rights, and procedural guides cited when preparing a claim. |
+
 ## Gotchas
 
-- The small claims court jurisdiction limit (NIS 38,900 as of January 2025) is updated periodically by the Ministry of Justice. Agents using an outdated limit will give incorrect filing advice. Always verify the current threshold.
+- The small claims court jurisdiction limit (NIS 39,900 as of January 2026) is updated periodically by the Ministry of Justice. Agents using an outdated limit will give incorrect filing advice. Always verify the current threshold.
 - Israeli legal citation format uses "Psakei Din" style, not Bluebook or OSCOLA. Agents trained on US or UK legal norms will produce improperly formatted citations in demand letters and court filings.
 - Filing fees in Israeli small claims court are calculated as 1% of the claim amount (minimum NIS 50), not a flat fee. Agents familiar with US small claims (which use flat filing fees) will miscalculate costs.
 - The Israeli Execution Office (Hotza'a LaPo'al) enforcement process is a distinct post-judgment system with its own procedures and fees. Agents may confuse it with regular court enforcement or skip this step entirely when advising on judgment collection.
 - Consumer protection claims for online purchases can be filed in the plaintiff's home district court, not the defendant's location. This is an Israeli-specific consumer protection rule that agents unfamiliar with Israeli jurisdiction rules will miss.
 
+## Reference Links
+
+| Source | URL | What to Check |
+|--------|-----|--------------|
+| Judicial Authority -- Filing a Small Claim | https://www.gov.il/en/service/filing_a_small_claim | Current jurisdiction limit, procedure, and official filing service |
+| Judicial Authority -- Small Claims Courts Guide | https://www.gov.il/en/pages/small_claims_courts_guide | Official overview of the court, jurisdiction rules, and forms |
+| Judicial Authority -- Court Fees | https://www.gov.il/he/departments/general/fees_3 | Current filing fee formulas for small claims and related courts |
+| Kol-Zchut -- Filing a Small Claim | https://www.kolzchut.org.il/he/הגשת_תביעה_קטנה | Step-by-step rights guide in Hebrew (unofficial but well-sourced) |
+| Consumer Protection Law 1981 | https://www.nevo.co.il/law_html/law01/p214m1_001.htm | Statutory basis for consumer claims (fitness for purpose, warranty, distance sales) |
+| Courts Law [Consolidated] 1984 | https://www.nevo.co.il/law_html/law00/74849.htm | Small claims jurisdiction and Magistrate Court limits (currently NIS 2.5M) |
+
 ## Troubleshooting
 
-### Error: "Claim amount exceeds NIS 38,900"
+### Error: "Claim amount exceeds NIS 39,900"
 Cause: The dispute involves more money than the small claims court limit.
-Solution: You have three options: (1) Reduce the claim to NIS 38,900 and waive the excess (forfeiting the difference). (2) File in Magistrate Court (Beit Mishpat Shalom) which handles claims up to NIS 2.5 million (lawyer recommended but not required). (3) Split the claim if it involves genuinely separate transactions (not allowed for a single transaction). Consider whether the cost and complexity of Magistrate Court is worth the additional amount, as small claims is faster and simpler.
+Solution: You have three options: (1) Reduce the claim to NIS 39,900 and waive the excess (forfeiting the difference). (2) File in Magistrate Court (Beit Mishpat Shalom) which handles claims up to NIS 2.5 million (lawyer recommended but not required). (3) Split the claim if it involves genuinely separate transactions (not allowed for a single transaction). Consider whether the cost and complexity of Magistrate Court is worth the additional amount, as small claims is faster and simpler.
 
 ### Error: "Cannot locate the defendant's address"
 Cause: Need a valid address to serve court summons.
