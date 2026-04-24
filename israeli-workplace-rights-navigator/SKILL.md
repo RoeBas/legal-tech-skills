@@ -28,22 +28,27 @@ All entitlements below are **minimum legal requirements**. Collective agreements
 
 ### Step 2: Vacation Days (Chofsha Shnatit)
 
-Per the **Annual Leave Law, 1951 (Chok Chufsha Shnatit)**, every employee is entitled to paid vacation based on seniority:
+Per the **Annual Leave Law, 1951 (Chok Chufsha Shnatit)**, every employee is entitled to paid vacation based on seniority. The statutory table counts calendar days (including weekly rest days); for a 5-day work week the "net" figure is the actual working days of absence:
 
-| Years of Employment | Minimum Vacation Days (per year) |
-|---------------------|----------------------------------|
-| 1-4 | 12 days |
-| 5 | 14 days |
-| 6 | 16 days |
-| 7 | 21 days |
-| 8+ | 28 days |
+| Years of Employment | Gross Days (calendar, 6-day basis) | Net Working Days (5-day week) |
+|---------------------|-------------------------------------|-------------------------------|
+| 1-5 | 16 | 12 |
+| 6 | 18 | 14 |
+| 7 | 21 | 15 |
+| 8 | 22 | 16 |
+| 9 | 23 | 17 |
+| 10 | 24 | 18 |
+| 11 | 25 | 19 |
+| 12 | 26 | 20 |
+| 13 | 27 | 20 |
+| 14+ | 28 | 20 |
 
 **Key rules:**
-- Days are calculated based on a 6-day work week. For a 5-day week, multiply by 5/6 (rounded). For example, 12 days becomes 10 working days for a 5-day week
-- Part-time employees earn vacation proportionally based on hours worked
-- Vacation days can accumulate for up to 2 years if unused, but the employer can require the employee to take them
-- Vacation includes Fridays and Saturdays (or the employee's weekly rest day) only if they fall within a continuous vacation period
+- Gross days include Fridays and Saturdays (weekly rest). For a 5-day work week, count only the working-day column (net) when scheduling actual time off
+- Part-time employees earn vacation proportionally based on actual days worked in the year
+- Unused vacation days can carry forward with employer consent, typically over the next two years of employment; beyond that the employer may require the employee to use them
 - The employer sets the vacation schedule but must consider the employee's requests. The employee must receive at least 7 consecutive days per year if requested
+- Collective agreements (heskemim kibbutziyim) in sectors and many individual contracts grant more generous leave than the table above
 
 **Vacation pay:**
 - The employee receives their regular salary during vacation
@@ -172,8 +177,8 @@ Every employee who has completed at least one year of employment is entitled to 
 | 20+ | 10 days |
 
 **Daily rate:**
-- Updated annually by the Ministry of Economy. The daily rate for 2025 is NIS 418 (private sector). Check for the most current rate at the time of inquiry
-- Public sector employees receive a higher rate per collective agreement
+- Updated annually by the Ministry of Economy. For 2026 the rate is frozen at NIS 418 per day (private sector); public sector is NIS 471.4 per day per collective agreement
+- For 2025 and 2026, employers are required to deduct one convalescence day from each employee's annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist support
 
 **Payment:**
 - Usually paid once a year, typically in June-September
@@ -194,10 +199,16 @@ Since the **Mandatory Pension Law extension order (Tzav Harchava, 2008)**:
 | Disability insurance | Included in employer's 6.5% | Included in employer's 6.5% |
 
 **Key rules:**
-- Applies to all employees after 6 months of employment (or immediately if the employee has an existing pension fund)
+- Applies to all employees after 6 months of employment for those without prior pension coverage (contributions are then paid retroactively to day 1), or immediately if the employee already has a pension fund
 - The employee chooses the pension fund (keren pensia, bituach menahalim, or kupat gemel)
 - Contributions are calculated on the gross salary up to the maximum insurable salary
 - An employer who fails to make pension contributions violates the law and faces penalties
+
+**Tax benefit on the employee's 6% contribution (Section 45a):**
+- The employee's 6% pension contribution qualifies for a 35% income-tax credit under Section 45a of the Income Tax Ordinance
+- The credit is applied automatically by the payroll system on the pay slip, subject to the annual ceiling (approximately NIS 8,148 in 2026)
+- The credit materially lowers the net cost of the employee's pension deduction. If a pay slip shows the full 6% deducted without a matching credit line, the employee may be entitled to a retroactive correction
+- Contributions above 7% of salary do not receive the credit and become fully taxable
 
 ### Step 9: Termination Procedures (Halichei Piturim)
 
@@ -288,12 +299,12 @@ Per the **Equal Rights for People with Disabilities Law, 1998 (Chok Shivyon Zchu
 User says: "I've worked at my company for 6 years. How many vacation days am I entitled to?"
 
 Actions:
-1. Look up seniority in the vacation table (Step 2): 6 years = 16 days per year
-2. Clarify work week: if 5-day week, calculate 16 x 5/6 = 13.3, rounded to 14 working days
+1. Look up seniority in the vacation table (Step 2): year 6 = 18 gross calendar days (14 net working days for a 5-day week)
+2. Clarify the work week: in a 5-day workplace, the 14 net figure is what the employee actually schedules off
 3. Note any applicable collective agreement that may provide more days
-4. Advise on accumulated unused days from prior years
+4. Advise on accumulated unused days from prior years (carry-forward permitted with employer consent over the next two years)
 
-Result: Employee is entitled to 16 calendar days (14 working days for a 5-day week) per year, with any unused days from years 5 and 6 potentially accumulated.
+Result: Employee is entitled to 14 actual working days of vacation per year (or 18 calendar days including weekends) with possible carry-forward of unused balances.
 
 ### Example 2: Severance Pay After Termination
 
@@ -346,7 +357,7 @@ Result: The termination may be unlawful. The employee should demand in writing t
 
 - Israeli sick pay starts at 0% on day 1, 50% on days 2-3, and 100% from day 4. This graduated structure is unique to Israel. Agents trained on US (often no mandated sick pay) or European (typically 100% from day 1) norms will give incorrect payment information.
 - The Israeli work week standard changed to 42 hours in April 2018. Agents with older training data may still reference 43 hours or 45 hours, leading to incorrect overtime calculations.
-- Vacation days in Israeli law are counted based on a 6-day work week. For the common 5-day work week, a conversion factor of 5/6 must be applied. Agents often skip this conversion and overstate entitlements.
+- Vacation days under the Annual Leave Law are counted in calendar days (a 6-day basis). For the common 5-day work week, the law sets a specific "gross" to "net" mapping (e.g., 18 gross = 14 net for year 6). A blind 5/6 multiplier is not the right formula; use the mapping table in Step 2, which matches the statutory schedule.
 - Severance pay must be paid within 15 days of termination, after which penalty interest (pitzuyei halanat pitzuyim) accrues automatically. Agents may cite a 30-day or "reasonable time" standard from other jurisdictions.
 - The pre-termination hearing (shima) is a mandatory procedural requirement in Israel that has no exact equivalent in US at-will employment. Agents may omit this step entirely, which can render the termination unlawful regardless of the substantive grounds.
 

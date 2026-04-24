@@ -43,8 +43,9 @@ This reference covers the key Israeli labor laws and regulations that govern emp
 
 ### Hours of Work and Rest Law (Chok She'ot Avoda U'Menucha), 1951
 
-- **Standard work day:** 8.6 hours (reduced from 9 hours as of April 2018 amendment)
-- **Standard work week:** 43 hours (reduced from 45)
+- **Standard work week:** 42 hours (reduced from 43 via the collective labor agreement extended in April 2018; further transition-order step)
+- **Standard work day (5-day week):** 8.4 hours per day
+- **Standard work day (6-day week):** 8 hours per day
 - **Overtime pay:**
   - First 2 overtime hours: 125% of regular hourly rate
   - Each additional hour: 150% of regular hourly rate
@@ -168,6 +169,25 @@ Israeli courts use a multi-factor test focusing on:
 - Works created by an employee in the course of employment belong to the employer (unless otherwise agreed)
 - Applies to software, documentation, designs, and other copyrightable works
 - Independent contractors retain copyright unless explicitly assigned in the contract
+
+## Tax Treatment of Employee Pension Contributions
+
+### Section 45a of the Income Tax Ordinance (Zikui Pensiyoni)
+
+When a contract sets the employee pension contribution at 6% of salary (the mandatory floor), the employee is entitled to a 35% income-tax credit on that contribution under Section 45a of the Income Tax Ordinance. This credit is part of the monthly payroll calculation and reduces the employee's tax liability, making the net cost of pension contributions significantly lower than the gross 6%.
+
+Key conditions (2026):
+- Employee pension contribution must not exceed 7% of salary for the credit to apply to the full amount
+- Annual contribution ceiling for the full credit: approximately NIS 8,148 (Section 45a ceiling, updated annually)
+- The credit is automatic for salaried employees whose payroll deducts pension contributions
+- Appears on the payslip (tlush maskoret) and on Form 106 at year-end
+
+Why this matters for contracts:
+- When quoting the employee's 6% pension deduction as a net-pay impact, the 35% Section 45a credit partially offsets it (a 6% gross deduction has a smaller net cost)
+- If the contract allows a higher-than-6% employee contribution, verify that the salary falls under the annual ceiling to preserve the full credit
+- Payroll systems must apply the credit monthly; if a payslip omits it, the employee is entitled to a retroactive refund
+
+Source: Income Tax Ordinance, Section 45a (<https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99>).
 
 ## Regulatory Bodies
 

@@ -45,10 +45,10 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 ## 4. Work Hours / שעות עבודה
 
 **English:**
-> The Employee shall work [5] days per week (Sunday through Thursday), [8.6] hours per day, for a total of [43] hours per week, in accordance with the Hours of Work and Rest Law, 1951 (as amended). Overtime work shall be compensated at the rates prescribed by law: 125% for the first two overtime hours and 150% for each additional hour thereafter. The Employee shall be entitled to a weekly rest period of at least 36 consecutive hours.
+> The Employee shall work [5] days per week (Sunday through Thursday), [8.4] hours per day, for a total of [42] hours per week, in accordance with the Hours of Work and Rest Law, 1951 (as amended in 2018 by the expansion order shortening the standard work week). Overtime work shall be compensated at the rates prescribed by law: 125% for the first two overtime hours and 150% for each additional hour thereafter. The Employee shall be entitled to a weekly rest period of at least 36 consecutive hours.
 
 **Hebrew / עברית:**
-> העובד/ת יעבוד/תעבוד [5] ימים בשבוע (ראשון עד חמישי), [8.6] שעות ביום, סה"כ [43] שעות בשבוע, בהתאם לחוק שעות עבודה ומנוחה, תשי"א-1951 (כפי שתוקן). עבודה בשעות נוספות תפוצה בשיעורים הקבועים בחוק: 125% עבור שתי השעות הנוספות הראשונות ו-150% עבור כל שעה נוספת לאחר מכן. העובד/ת זכאי/ת למנוחה שבועית של 36 שעות רצופות לפחות.
+> העובד/ת יעבוד/תעבוד [5] ימים בשבוע (ראשון עד חמישי), [8.4] שעות ביום, סה"כ [42] שעות בשבוע, בהתאם לחוק שעות עבודה ומנוחה, תשי"א-1951 (כפי שתוקן בשנת 2018 בצו ההרחבה לקיצור שבוע העבודה). עבודה בשעות נוספות תפוצה בשיעורים הקבועים בחוק: 125% עבור שתי השעות הנוספות הראשונות ו-150% עבור כל שעה נוספת לאחר מכן. העובד/ת זכאי/ת למנוחה שבועית של 36 שעות רצופות לפחות.
 
 ---
 
@@ -85,6 +85,12 @@ Bilingual (Hebrew and English) clause templates for Israeli employment contracts
 > העובד/ת מאשר/ת ומסכים/ה להסדר סעיף 14 זה.
 >
 > חתימת העובד/ת: _____________ תאריך: _____________
+
+**Note on Section 45a tax credit (for payroll calculations, not a contract clause):**
+> The Employee's 6% pension contribution qualifies for a 35% income-tax credit under Section 45a of the Income Tax Ordinance, subject to the annual ceiling (approx. NIS 8,148 in 2026). Payroll systems apply the credit monthly. This materially reduces the net cost of the Employee's pension contribution. The contract does not need to reference this explicitly, but payroll processes must apply the credit correctly.
+
+**הערה על זיכוי לפי סעיף 45א (לחישוב שכר, אינה סעיף חוזי):**
+> הפרשת העובד/ת בשיעור 6% לפנסיה מזכה בזיכוי מס הכנסה בגובה 35% לפי סעיף 45א לפקודת מס הכנסה, עד תקרת הזיכוי השנתית (כ-8,148 ש"ח בשנת 2026). מערכות שכר מיישמות את הזיכוי באופן חודשי, מה שמפחית משמעותית את העלות נטו של הפרשת העובד/ת. אין חובה להתייחס לכך בחוזה, אך חישוב השכר חייב ליישם את הזיכוי כראוי.
 
 ---
 

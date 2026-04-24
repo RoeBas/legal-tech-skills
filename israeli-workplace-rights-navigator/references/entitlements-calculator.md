@@ -4,36 +4,31 @@ Quick-reference tables for calculating employee entitlements based on years of e
 
 ## Vacation Days (Annual Leave Law, 1951)
 
-### 6-Day Work Week
+The Annual Leave Law table sets "gross" days counted on a 6-day calendar basis. In a 5-day workplace, the statutory "net" column reflects actual working days of absence (Fridays and Saturdays are excluded because they are weekly rest).
 
-| Years of Employment | Calendar Days | Working Days |
-|---------------------|---------------|--------------|
-| 1 | 12 | 12 |
-| 2 | 12 | 12 |
-| 3 | 12 | 12 |
-| 4 | 12 | 12 |
-| 5 | 14 | 14 |
-| 6 | 16 | 16 |
-| 7 | 21 | 21 |
-| 8+ | 28 | 28 |
-
-### 5-Day Work Week (Multiply by 5/6, round up)
-
-| Years of Employment | Calendar Days | Working Days |
-|---------------------|---------------|--------------|
-| 1 | 12 | 10 |
-| 2 | 12 | 10 |
-| 3 | 12 | 10 |
-| 4 | 12 | 10 |
-| 5 | 14 | 12 |
-| 6 | 16 | 14 |
-| 7 | 21 | 18 |
-| 8+ | 28 | 24 |
+| Years of Employment | Gross Days (6-day calendar) | Net Working Days (5-day week) |
+|---------------------|-----------------------------|-------------------------------|
+| 1 | 16 | 12 |
+| 2 | 16 | 12 |
+| 3 | 16 | 12 |
+| 4 | 16 | 12 |
+| 5 | 16 | 12 |
+| 6 | 18 | 14 |
+| 7 | 21 | 15 |
+| 8 | 22 | 16 |
+| 9 | 23 | 17 |
+| 10 | 24 | 18 |
+| 11 | 25 | 19 |
+| 12 | 26 | 20 |
+| 13 | 27 | 20 |
+| 14+ | 28 | 20 |
 
 **Notes:**
-- Part-time employees: proportional to work percentage (e.g., 50% position gets 50% of days)
-- Accumulation: unused days can roll over for up to 2 years
-- Payout on termination: all unused accumulated days must be paid (pidyon chufsha)
+- The "5/6 multiplier" commonly quoted online is a rough approximation; use the statutory table above for accuracy.
+- Part-time employees: proportional to work days actually performed in the year (not to the headline position percentage).
+- Accumulation: unused days can carry forward with employer consent to the following two years; collective agreements may extend this.
+- Payout on termination: all unused accumulated days must be paid (pidyon chufsha).
+- Source: kolzchut.org.il, Annual Leave Law 1951 and the 2016 amendment.
 
 ## Sick Days (Sick Pay Law, 1976)
 
@@ -100,19 +95,24 @@ Quick-reference tables for calculating employee entitlements based on years of e
 | 2023 | 378 |
 | 2024 | 400 |
 | 2025 | 418 |
+| 2026 | 418 (frozen) |
 
-**Note:** The daily rate is updated annually. Public sector employees receive a higher rate per collective agreement. Check the Ministry of Economy website for the current rate.
+**Reservist-support deduction (2025-2026):** For each employee, the employer must deduct one day's worth of convalescence pay from the annual entitlement and transfer the equivalent amount to the Tax Authority to fund reservist benefits. This applies as long as the temporary order remains in force.
+
+**Note:** The daily rate is updated annually by extension order. Public sector employees receive a higher rate (NIS 471.4 in 2026) per collective agreement. Check the Ministry of Economy website for the current rate.
 
 ### Calculation Example
 
-Employee with 5 years of seniority (2025 rate):
+Employee with 5 years of seniority (2026 rate, before reservist-support deduction):
 ```
 Convalescence pay = 7 days x NIS 418 = NIS 2,926
+After 1-day deduction: (7 - 1) x NIS 418 = NIS 2,508
 ```
 
 Part-time employee (50% position) with 5 years:
 ```
 Convalescence pay = 7 days x NIS 418 x 50% = NIS 1,463
+After proportional 1-day deduction: (7 - 1) x NIS 418 x 50% = NIS 1,254
 ```
 
 ## Notice Period (Prior Notice Law, 2001)
@@ -188,5 +188,20 @@ When Section 14 applies (most common arrangement):
 
 **Eligibility timeline:**
 - Existing pension holders: contributions start from day 1
-- New employees without pension: after 6 months of employment
+- New employees without pension: after 6 months of employment (paid retroactively to day 1)
 - Contributions calculated on gross salary up to the insurable ceiling
+
+### Section 45a Tax Credit on the Employee's 6%
+
+The employee's 6% pension contribution qualifies for a 35% income-tax credit under Section 45a of the Income Tax Ordinance, applied automatically in payroll.
+
+| Parameter (2026) | Value |
+|------------------|-------|
+| Credit rate | 35% of the qualifying employee contribution |
+| Maximum employee contribution eligible for the full credit | up to 7% of salary |
+| Annual ceiling on pension contributions eligible for the credit | approx. NIS 8,148 |
+| Where it appears | Pay slip (tlush maskoret) and Form 106 |
+
+Contributions above 7% of salary, or above the annual ceiling, do not receive the credit and remain fully taxable.
+
+Source: [Kolzchut: Zikui pensioni](https://www.kolzchut.org.il/he/%D7%96%D7%99%D7%9B%D7%95%D7%99_%D7%9E%D7%9E%D7%A1_%D7%94%D7%9B%D7%A0%D7%A1%D7%94_%D7%91%D7%92%D7%99%D7%9F_%D7%94%D7%A4%D7%A8%D7%A9%D7%95%D7%AA_%D7%9C%D7%91%D7%99%D7%98%D7%95%D7%97_%D7%A4%D7%A0%D7%A1%D7%99%D7%95%D7%A0%D7%99)
