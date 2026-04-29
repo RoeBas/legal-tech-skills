@@ -1,6 +1,6 @@
 ---
 name: israeli-fines-fighter
-description: "Appeal parking tickets and traffic fines in Israel: generates Hebrew appeal letters, explains deadlines, covers municipal fine codes, speed camera violations, and the points system. Use when a user receives a knasa (fine) and wants to understand their options, draft an appeal, or calculate penalty points. Prevents users from missing the 30-day appeal window, which doubles the fine amount."
+description: "Appeal parking tickets and traffic fines in Israel: generates Hebrew appeal letters, explains deadlines, covers municipal fine codes, speed camera violations, and the points system. Use when a user receives a knasa (fine) and wants to understand their options, draft an appeal, or calculate penalty points. Helps users hit the 30-day cancellation window (bakasha le-bitul) AND the 90-day court-hearing window (bakasha le-hishafet), and avoid the +50% surcharge that kicks in after the 90-day mark."
 license: MIT
 ---
 
@@ -8,7 +8,7 @@ license: MIT
 
 ## Problem
 
-Getting fined in Israel is stressful and confusing. Parking tickets arrive with cryptic violation codes, traffic fines carry penalty points that accumulate toward license suspension, and the 30-day appeal window passes quickly. Most Israelis either pay fines they could have appealed or miss deadlines and face doubled amounts. This skill helps users understand their fine, decide whether to appeal, and generate a proper Hebrew appeal letter with the right legal grounds.
+Getting fined in Israel is stressful and confusing. Parking tickets arrive with cryptic violation codes, traffic fines carry penalty points that accumulate toward license suspension, and there are TWO different appeal windows running in parallel for both fine types: a **30-day cancellation request (bakasha le-bitul)** to the prosecutor or municipality, and a **90-day court-hearing request (bakasha le-hishafet)** OR 30 days from the rejection of a cancellation request. After 90 days without action, a +50% surcharge kicks in, then +5% every additional 6 months. This skill helps users hit both windows, decide whether to appeal, and generate a proper Hebrew appeal letter with the right legal grounds.
 
 ## Instructions
 
@@ -32,17 +32,24 @@ Key details to collect:
 
 ### Step 2: Assess the Deadline
 
-The appeal deadline is critical and non-negotiable:
+There are TWO appeal mechanisms with separate deadlines, applicable to BOTH parking fines and traffic fines:
+
+| Window | Mechanism | Hebrew | Submitted To |
+|---|---|---|---|
+| **30 days from receipt** | Cancellation request (essentially clerk review) | בקשה לביטול / בקשת בירור | Municipality (parking) or Police prosecutor (traffic) |
+| **90 days from receipt** OR **30 days from rejection of a cancellation request** | Court hearing request | בקשה להישפט | Traffic court / municipal court |
+
+After **day 90** without payment or appeal, the fine carries a **+50% surcharge**, with **+5% every additional 6 months**. The pre-2026 framing of "fine doubles after 30 days" is wrong — surcharge does not start at 30 days, and it is +50% (not 100%).
 
 | Timeline | Status | Action |
 |----------|--------|--------|
-| **0-30 days** from receipt | Within appeal window | Can submit written appeal (bakasha leitul) |
-| **31-90 days** | Late payment period | Fine amount increases. Appeal rights limited |
-| **90+ days** | Collection proceedings | Additional fees, possible vehicle registration block (ikuv rishum), enforcement via Hotza'a Lapo'al |
+| **Day 0-30** | Both windows open | Best time to file בקשה לביטול. Many municipalities also offer a 25-50% early-payment discount in this window (varies by city). |
+| **Day 31-90** | Cancellation window closed; court-hearing window still open | File בקשה להישפט before day 90, OR if a בקשה לביטול was rejected, file court request within 30 days of the rejection. |
+| **Day 90+** | Both standard windows closed; +50% surcharge accrues | Late-appeal exceptions (איחור מוצדק) apply only for hospitalization, military reserve service, or being abroad — see Criminal Procedure Law § 230. Otherwise enforcement via Hotza'a Lapo'al, vehicle-registration block (ikuv rishum), additional fees. |
 
-**For parking fines:** The 30-day clock starts from the date the ticket was placed on the vehicle OR the date a notice was mailed to the registered owner.
+**For parking fines:** the 30-day clock starts from the date the ticket was placed on the vehicle OR the date a notice was mailed to the registered owner.
 
-**For traffic fines (breirot mishpat):** The defendant has 90 days to either pay, request a court hearing, or submit a plea bargain request. After 90 days without action, the fine becomes a court conviction by default.
+**For traffic fines (breirot mishpat):** by default the fine becomes a court conviction at day 90 if no בקשה להישפט was filed.
 
 ### Step 3: Evaluate Appeal Grounds
 
@@ -155,10 +162,12 @@ When the fine is a traffic violation, calculate the point impact:
 |-------------------|-------------|
 | 12-22 points | Warning letter from licensing authority |
 | 22-34 points | Mandatory safe driving course (kurs nehiga bituchit) |
-| 34-36 points | 3-month license suspension |
+| 22-34 points | Advanced safe-driving course + theory test |
+| 34+ points | 24-month license suspension (NOT 3 months) |
+| 36 points (or two separate 22-point reaches in 6 years) | 9-month suspension + practical re-test |
 | 36+ points | Extended license suspension, re-examination required |
 
-Points expire after 2 years from the offense date (or 4 years for severe offenses).
+Points expire based on total accumulated count, not severity: **≤20 points clear after 2 years** of clean driving and completion of any required courses; **≥22 points clear after 4 years** under the same conditions. Without completing required courses, points do not expire.
 
 **Common violation point values:**
 
@@ -197,6 +206,15 @@ Note: Fine amounts are updated periodically by ministerial order. Always verify 
 - `deadline-calculator.py` -- Calculate remaining days in appeal window based on fine date
 
 ## Troubleshooting
+
+### "My fine grew because I missed a deadline"
+
+The pre-2026 "fine doubles after 30 days" framing is incorrect. The actual rule:
+- Past day 90 without payment or appeal: **+50% surcharge** (not +100%, not at day 30).
+- Past 6 months thereafter: **+5% every additional 6 months**.
+- Possible additional collection fees, vehicle-registration block (ikuv rishum), and enforcement via Hotza'a Lapo'al.
+
+If still within the 30-day cancellation window or 90-day court window, file the appropriate request immediately. After day 90, late-appeal exceptions (איחור מוצדק) apply only for hospitalization, active reserve service, or being abroad — see Criminal Procedure Law § 230 and document the cause.
 
 ### "My fine doubled because I missed the 30-day deadline"
 If the deadline passed, the user can still pay the increased amount to avoid further escalation. In exceptional cases (hospitalization, military reserve duty), some municipalities accept late appeals with documentation.
