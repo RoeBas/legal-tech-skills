@@ -266,8 +266,8 @@ Typical small claims cases and their specific considerations:
 
 | MCP | What It Adds |
 |-----|-------------|
-| [Israel Law MCP](https://agentskills.co.il/he/mcps/legal/israel-law) | Full-text search of 66 Israeli statutes with 537 provisions, including Consumer Protection Law and other laws commonly cited in demand letters and small claims filings. |
-| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcps/government/kolzchut) | Structured access to Israel's authoritative rights and entitlements knowledge base (כל-זכות), useful for looking up tenant rights, consumer rights, and procedural guides cited when preparing a claim. |
+| [Israel Law MCP](https://agentskills.co.il/he/mcp/israel-law) | Full-text search of 66 Israeli statutes with 537 provisions, including Consumer Protection Law and other laws commonly cited in demand letters and small claims filings. |
+| [Kolzchut (All-Rights)](https://agentskills.co.il/he/mcp/kolzchut) | Structured access to Israel's authoritative rights and entitlements knowledge base (כל-זכות), useful for looking up tenant rights, consumer rights, and procedural guides cited when preparing a claim. |
 
 ## Gotchas
 
